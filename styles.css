@@ -1,0 +1,210 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.current{
+    background-color:#ea7a4b;   
+    padding:4px 8px 4px 4px;
+    border-radius:9px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.eff:hover{
+    transition-delay: 0.2s;
+    background-color:#ea7a4b;   
+    padding:4px 8px 4px 4px;
+    border-radius:9px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+.nav-arch{
+    background-color:#426699;   
+    padding:4px 8px 8px 4px;
+    border-radius:9px;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.nav-bar{
+    display:flex;
+    padding:8px 16px 16px 2px;
+    background-color:#cffbfc;
+    color:black;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+}
+.icon-img{
+    margin-left:30px;
+    width:24px;
+    margin-right:auto;
+    background-color:transparent ;
+    
+}img{
+    background-color:transparent;
+    width:40px;
+}
+.nav-sub{
+    width:30vw;
+    display:flex;
+    justify-content:space-around;
+}
+a{
+    font-weight:bold;
+    text-decoration:none;
+    color:#060606;
+    text-align:center;
+}
+.home{
+    display:flex;
+    justify-content: space-evenly;
+    background:linear-gradient(to top left, #9999ff 0%, #ffcccc 100%); 
+    flex-wrap: wrap;
+}
+.home-page{
+    background:linear-gradient(to top left, #9999ff 0%, #ffcccc 100%);
+    height:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+input{
+    border:none;
+    outline: none;
+}
+.serach-bar-cont{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.search-text{
+    font-style:oblique;
+    font-size:44px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search-para{
+    font-size:20px;
+    color:#0b0b0b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-bar{
+    background-color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    border-radius:14px;
+
+}
+
+
+.search-bar-btn{
+    background-color:#fff;
+    padding:2px;
+}
+#searchBar{
+    padding:10px;
+    width:320px;
+    border-color:#fff;
+    
+}
+#searchBar:hover {
+    background-color:#fff;
+    color: black;
+  }
+
+.rpage{
+    height:100vh; 
+    padding-top:70px;
+    text-align:center;
+    background:linear-gradient(to top left, #9999ff 0%, #ffcccc 100%);
+}
+#category{
+    width: 100px;
+    margin-left: 16px;
+    margin-top: 5px;
+    line-height: 12px;
+    font-size: 13px;
+}
+#genre{
+    width: 100px;
+    margin-left:35px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+/* .category-list,.genre-list{
+    text-align: center;
+    color:black;
+    margin-top:0px;
+} */
+
+#apply{
+    box-shadow: #444444;
+    border-radius: 4px;
+    border-color: #060606;
+    border-width: 10px;
+    margin-top: 10px;
+    transition:padding 0.2;
+    cursor:pointer;
+    padding-left:auto;
+    background-color:transparent;
+    text-decoration: underline;
+    color: #be7215;
+    font-weight: bold;
+}
+#apply:hover{
+    padding:5px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.poster-img {
+    height: 300px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.search-results {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+    border: solid 1px grey;
+    width: 300px;
+    padding: 8px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}

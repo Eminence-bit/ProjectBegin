@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE SITE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a href="https://www.instagram.com/prajyoth_4287?igsh=MWljajY5N3Y4ODl4eA==" target="_blank" class="icon-img"><img src="/pngwing.com.png" /></a>
+        <div class="nav-sub">
+            
+            <div class="nav_arch">
+                <a href="index.html" class="eff">Home</a>
+            </div>
+            <div class="current">
+                <a href="recomendation.html" class="eff">Recomendation</a>    
+            </div>
+            <div class="nav_arch">
+                <a href="trending.html" class="eff">Trending</a>       
+            </div>
+            <div class="nav_arch">
+                <label for="searchBar" ><img style="width:18px;" src="/p2.png"/></label>    
+            </div>
+            
+            
+            
+        </div>
+        
+    </nav>
+    <div class="rpage">
+        <div class="category-list">
+            <label for="category">Select Category:</label>
+            <select name="category" id="category">
+                <option value="a1">Animation</option>
+                <option value="a2">Webseries</option>
+                <option value="a3">Movies</option>
+            </select>
+        </div>
+        <div class="genre-list">
+            <label for="genre">Select Genre:</label>
+            <select name="genre" id="genre">
+                <option value="action">Action</option>
+        <option value="adventure">Adventure</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="fantasy">Fantasy</option>
+        <option value="horror">Horror</option>
+        <option value="mystery">Mystery</option>
+        <option value="romance">Romance</option>
+        <option value="sci-fi">Science Fiction</option>
+        <option value="thriller">Thriller</option>
+        <option value="documentary">Documentary</option>
+        <option value="animation">Animation</option>
+                <!-- Add more genre options as needed -->
+            </select>
+        </div>
+        
+        <button id="apply" onclick="recommend()">Apply Filters</button>
+        
+        <div id="filteredItems">
+            <!-- Results will be displayed here -->
+        </div>
+   </div>
+        <script src="main.js"></script>
+</body>
+</html>
